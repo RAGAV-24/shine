@@ -1,0 +1,69 @@
+/* TemplateSelectionPage.css */
+.template-selection-page {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #f0f9ff, #d9eaff);
+    min-height: 100vh;
+}
+
+.template-selection-page h1 {
+    color: #ffffff;
+    background: linear-gradient(45deg, #2c3e50, #8e44ad); /* Dark gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.template-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.template-option {
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.template-option:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.template-option img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.template-option img:hover {
+    opacity: 0.8;
+}
+
+.template-option p {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    background-color: #f4f4f4;
+    border-top: 2px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.template-option p:hover {
+    background-color: #e0e0e0;
+}
